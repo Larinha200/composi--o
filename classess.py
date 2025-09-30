@@ -18,10 +18,10 @@ class Memoria_RAM:
         self.__capacidade_gb_RAM = capacidade_gb_RAM
         self.__tipo_RAM = tipo_RAM
 
-    def getCapacidade_gb(self):
+    def getCapacidade_gb_RAM(self):
         return self.__capacidade_gb_RAM
     
-    def getTipo(self):
+    def getTipo_RAM(self):
         return self.__tipo_RAM
     
     def __str__(self):
