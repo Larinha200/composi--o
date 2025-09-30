@@ -46,5 +46,14 @@ class Computador:
     def getModelo(self):
         return self.__modelo
     
-    def ligar ():
-        pass
+    def ligar (self):
+        self.getMarca 
+        self.getModelo
+        self.__processador.getModelo
+        self.__processador.getVelocidade_ghz
+        self.__memoria_RAM.getCapacidade_gb
+        self.__memoria_RAM.getTipo
+        self.__armazenamento.getCapacidade_gb
+        self.__armazenamento.getTipo
+        return self.getMarca ,self.getModelo,self.__processador.getModelo,self.__processador.getVelocidade_ghz,self.__memoria_RAM.getCapacidade_gb,self.__memoria_RAM.getTipo,self.__armazenamento.getCapacidade_gb,self.__armazenamento.getTipo
+    
