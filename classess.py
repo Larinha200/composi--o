@@ -62,11 +62,11 @@ class Computador:
     def ligar (self):
         self.getMarca 
         self.getModelo
-        self.__processador.getModelo
-        self.__processador.getVelocidade_ghz
-        self.__memoria_RAM.getCapacidade_gb
-        self.__memoria_RAM.getTipo
-        self.__armazenamento.getCapacidade_gb
-        self.__armazenamento.getTipo
-        return self.getMarca ,self.getModelo,self.__processador.getModelo,self.__processador.getVelocidade_ghz,self.__memoria_RAM.getCapacidade_gb,self.__memoria_RAM.getTipo,self.__armazenamento.getCapacidade_gb,self.__armazenamento.getTipo
+        self.__processador.getModelo_pro
+        self.__processador.getVelocidade_ghz_pro
+        self.__memoria_RAM.getCapacidade_gb_RAM
+        self.__memoria_RAM.getTipo_RAM
+        self.__armazenamento.getCapacidade_gb_ar
+        self.__armazenamento.getTipo_ar
+        return self.getMarca ,self.getModelo,self.__processador.getModelo_pro,self.__processador.getVelocidade_ghz_pro,self.__memoria_RAM.getCapacidade_gb_RAM,self.__memoria_RAM.getTipo_RAM,self.__armazenamento.getCapacidade_gb_ar,self.__armazenamento.getTipo_ar
     
