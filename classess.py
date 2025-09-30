@@ -56,7 +56,7 @@ class Computador:
         return self.__modelo
     
     def __str__(self):
-        return f'Marca: {self.__marca} \nModelo: {self.__modelo} \nProcessador: \nModelo: {self.__processador.getModelo_pro} \nVelocidade ghz: {self.__processador.getVelocidade_ghz} \nMemoria RAM: \nCpacidade gb:{self.__memoria_RAM.getCapacidade_gb} \ntipo: {self.__memoria_RAM.getTipo} \nArmezenamento: \nCapacidade gb: {self.__armazenamento.getCapacidade_gb} \nTipo:{self.__armazenamento.getTipo}'
+        return f'Marca: {self.__marca} \nModelo: {self.__modelo} \nProcessador: \nModelo: {self.__processador.getModelo_pro()} \nVelocidade ghz: {self.__processador.getVelocidade_ghz_pro()} \nMemoria RAM: \nCpacidade gb:{self.__memoria_RAM.getCapacidade_gb()} \ntipo: {self.__memoria_RAM.getTipo()} \nArmezenamento: \nCapacidade gb: {self.__armazenamento.getCapacidade_gb()} \nTipo:{self.__armazenamento.getTipo()}'
     
     
     def ligar (self):
