@@ -21,3 +21,15 @@ resp= int(input("--->"))
 match resp:
     case 1:
         print(com1)
+        
+    case 2:
+        print(com2)
+
+    case 3:
+        print(com3)
+
+    case 4:
+        print(com4)
+
+    case _:
+        print("n tem essa opção")

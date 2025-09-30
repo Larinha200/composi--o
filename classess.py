@@ -55,6 +55,15 @@ class Computador:
     def getModelo(self):
         return self.__modelo
     
+    def getProcessador(self):
+        return self.__processador
+    
+    def getMemoria_RAM(self):
+        return self.__memoria_RAM
+    
+    def getArmazenamento(self):
+        return self.__armazenamento
+    
     def __str__(self):
         return f'Marca: {self.__marca} \nModelo: {self.__modelo} \nProcessador: \nModelo: {self.__processador.getModelo_pro()} \nVelocidade ghz: {self.__processador.getVelocidade_ghz_pro()} \nMemoria RAM: \nCpacidade gb:{self.__memoria_RAM.getCapacidade_gb_RAM()} \ntipo: {self.__memoria_RAM.getTipo_RAM()} \nArmezenamento: \nCapacidade gb: {self.__armazenamento.getCapacidade_gb_ar()} \nTipo:{self.__armazenamento.getTipo_ar()}'
     
